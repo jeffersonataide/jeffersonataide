@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
     <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="{{ 'assets/css/index.css' | url }}">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
   </head>
+
   <body>
-    {{ content | safe}}
+    <header>
+      <h1>Jefferson Oliveira</h1>
+    </header>
+    <nav class="navbar pure-menu pure-menu-horizontal">
+      <ul>
+        <li class='pure-menu-item'>
+          <a class='pure-menu-link' href='/'>Home</a>
+        </li>
+        <li class='pure-menu-item'>
+          <a class='pure-menu-link' href='/'>Blog</a>
+        </li>
+        <li class='pure-menu-item'>
+          <a class='pure-menu-link' href='/'>Projetos</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      {{ content | safe}}
+    </main>
   </body>
 </html>
