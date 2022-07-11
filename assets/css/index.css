@@ -3,6 +3,15 @@ header {
     text-align: center;
 }
 
+main {
+    margin: 3rem;
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .navbar {
     text-align: center;
 }
