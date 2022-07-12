@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Javascript"
+  },
+  {
+    "name": "Typescript"
+  },
+  {
+    "name": "ReactJS"
+  },
+  {
+    "name": "MobX"
+  },
+  {
+    "name": "Storybook"
+  },
+  {
+    "name": "HTML"
+  },
+  {
+    "name": "CSS"
+  },
+  {
+    "name": "SASS"
+  },
+  {
+    "name": "TailwindCSS"
+  },
+  {
+    "name": "Jest"
+  },
+  {
+    "name": "Cypress"
+  },
+  {
+    "name": "Python"
+  },
+  {
+    "name": "GraphQL"
+  },
+  {
+    "name": "Github"
+  }
+]
