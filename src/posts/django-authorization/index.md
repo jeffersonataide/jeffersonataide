@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Django Auth
 tags: posts
-date: 2022-01-01
+date: 2021-08-26
 ---
 # INTRODUCTION
 

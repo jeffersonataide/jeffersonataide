@@ -6,6 +6,10 @@ title: Blog
 <h1>Blog Page</h1>
 <ul>
   {%- for post in collections.posts -%}
-    <li><a href="{{ post.url }}">{{ post.data.date.getFullYear() }} / {{ post.date.getMonth() }} - {{ post.data.title }}</a></li>
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.data.date.getUTCFullYear() }} / {{ post.date.getUTCMonth() + 1 }} / {{ post.date.getUTCDate() }} - {{ post.data.title }}
+      </a>
+    </li>
   {%- endfor -%}
 </ul>
