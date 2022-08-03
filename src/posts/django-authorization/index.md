@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: layouts/base.njk
 title: Django Auth
 tags: posts
 date: 2021-08-26
