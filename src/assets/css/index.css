@@ -7,6 +7,10 @@ main {
   margin: 3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -14,6 +18,17 @@ section {
 
 .navbar {
   text-align: center;
+  background-color: #c9c0ff;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar > a {
+  color: #060940;
+  font-size: 1.5em;  
+  margin: 0 1em;
 }
 
 .about {
@@ -24,3 +39,7 @@ p.about {
   max-width: 30em;
   width: 100%;
 }
+
+/* .pure-menu-item { */
+/* background-color: red; */
+/* } */

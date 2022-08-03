@@ -7,26 +7,20 @@
     <title>{{ title }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/sanitize.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/typography.css' | url }}">
   </head>
 
   <body>
+    <nav class="navbar ">
+      <a href='/'>Home</a>
+      <a href='/blog'>Blog</a>
+      <a href='/projects'>Projects</a>
+    </nav>
+
     <header>
       <h1>Jefferson Oliveira</h1>
     </header>
-    <nav class="navbar pure-menu pure-menu-horizontal">
-      <ul>
-        <li class='pure-menu-item'>
-          <a class='pure-menu-link' href='/'>Home</a>
-        </li>
-        <li class='pure-menu-item'>
-          <a class='pure-menu-link' href='/blog'>Blog</a>
-        </li>
-        <li class='pure-menu-item'>
-          <a class='pure-menu-link' href='/projects'>Projects</a>
-        </li>
-      </ul>
-    </nav>
 
     <main>
       {{ content | safe}}
