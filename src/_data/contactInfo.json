@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/jefferson2z",
+    "icon": "/assets/images/github.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/jefferson-ataide-oliveira/?locale=en_US",
+    "icon": "/assets/images/linkedin.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/jeff_dev_",
+    "icon": "/assets/images/twitter.svg"
+  },
+  {
+    "name": "Email",
+    "link": "mailto:jefferson.dev.insights@gmail.com",
+    "icon": "/assets/images/mail.svg"
+  }
+]

@@ -1,0 +1,11 @@
+<footer>
+    <div class='circle-footer'></div>
+    <div class='contacts-container'>
+        {% for contact in contactInfo %}
+            <a href="{{ contact.link }}" target="_blank" rel='noopener'>
+                <img src="{{ contact.icon }}"/>
+            </a>
+        {% endfor %}
+        <p class='copyright'>© 2022 Jefferson Oliveira</p>
+    </div>
+</footer>
