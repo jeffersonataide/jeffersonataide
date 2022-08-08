@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Press+Start+2P&display=swap");
+
 header {
   margin: 3rem;
   text-align: center;
@@ -11,9 +13,42 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+hr {
+  border: 0.2rem solid #ac99ef;
+  width: 50vw;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #31188c;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 0.1em 0 0 #31188c, 0 0.1em 0 #31188c, -0.1em 0 0 #31188c,
+    0 -0.1em 0 #31188c;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
 .navbar {
@@ -27,19 +62,34 @@ section {
 
 .navbar > a {
   color: #060940;
-  font-size: 1.5em;  
+  font-size: 1.5em;
   margin: 0 1em;
 }
 
-.about {
+.hero {
   text-align: center;
 }
 
-p.about {
+p.hero {
   max-width: 30em;
   width: 100%;
 }
 
-/* .pure-menu-item { */
-/* background-color: red; */
-/* } */
+.stack-text {
+  color: #31188c;
+  text-transform: uppercase;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-box {
+  width: 20em;
+  margin: 1em;
+  padding: 1em 3em 2em 3em;
+
+  border: 0.1rem solid #31188c;
+  box-shadow: -0.4rem 0.5rem 0 #31188c;
+}

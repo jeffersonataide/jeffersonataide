@@ -3,16 +3,30 @@ layout: layouts/base.njk
 title: Home
 ---
 
-<section class="about">
-  <p class="about-text">
-    My passion for computers comes from when I was a teenager. From disassembling my desktop to try different parts, reinstalling the OS to my first contact with Linux.  During my degree in Aerospace Engineering I was eager to code, which led me to work for 3 years on a project where I could develop and write the code of a solution for a fluid dynamics problem of an aeronautical company. Later, during my master degree, I had the opportunity to work for 2 years on developing the algorithm for predicting air-conditioner noise in cars, and it implement it on Python. In the course of studying it for the master, I got amazed by the web development world.</section>
-  </p>
-<section class="Skills">
-  <h2>Skills</h2>
+<section class="hero">
+  <h1 >
+    Hey, I'm Jefferson Oliveira
+    <br/>
+    a software Engineer
+  </h1>
+  <div class='stack-text'>
+    Fullstack Developer
+  </div>
+</section>
 
-  <ul>
-    {% for skill in skills %}
-      <li>{{ skill.name }}</li>
-    {% endfor %}
-  </ul>
+<section class="skills">
+  <h2>Skills</h2>
+  <hr/>
+
+  <div class='skills-container'>
+    <div class='skills-box'>
+      <h3>Javascript</h3>
+      <ul >
+        {% for skill in skills %}
+          <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
 </section>
