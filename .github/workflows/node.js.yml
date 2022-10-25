@@ -24,7 +24,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v3
     - name: Build with 11ty 
-      run: npm run build
+      run: npm run build -- --output=_site
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
 
