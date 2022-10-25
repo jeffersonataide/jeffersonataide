@@ -1,44 +1,30 @@
 [
   {
-    "name": "Javascript"
+    "name": "Javascript",
+    "icon": "/assets/images/js-logo.svg"
   },
   {
-    "name": "Typescript"
+    "name": "Typescript",
+    "icon": "/assets/images/typescript-logo.svg"
   },
   {
-    "name": "ReactJS"
+    "name": "ReactJS",
+    "icon": "/assets/images/react-logo.svg"
   },
   {
-    "name": "MobX"
+    "name": "PostgreSQL",
+    "icon": "/assets/images/postgresql-logo.svg"
   },
   {
-    "name": "Storybook"
+    "name": "Python",
+    "icon": "/assets/images/python-logo-generic.svg"
   },
   {
-    "name": "HTML"
+    "name": "GraphQL",
+    "icon": "/assets/images/graphql-logo.svg"
   },
   {
-    "name": "CSS"
-  },
-  {
-    "name": "SASS"
-  },
-  {
-    "name": "TailwindCSS"
-  },
-  {
-    "name": "Jest"
-  },
-  {
-    "name": "Cypress"
-  },
-  {
-    "name": "Python"
-  },
-  {
-    "name": "GraphQL"
-  },
-  {
-    "name": "Github"
+    "name": "Docker",
+    "icon": "/assets/images/docker-logo.png"
   }
 ]

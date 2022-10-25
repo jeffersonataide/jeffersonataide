@@ -58,6 +58,12 @@ img {
   width: inherit;
 }
 
+.profile-photo {
+  max-width: 15em;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
 .header-icons-container > a {
   height: 1.5em;
 }
@@ -100,11 +106,23 @@ p.hero {
 }
 
 .skills-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  height: 2em;
+  margin: 1rem;
+}
+
+.projects-container {
   display: flex;
   justify-content: center;
 }
 
-.skills-box {
+.projects-box {
   width: 20em;
   margin: 1em;
   padding: 1em 3em 2em 3em;

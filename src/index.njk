@@ -4,28 +4,29 @@ title: Home
 ---
 
 <section class="hero">
+  <img class='profile-photo' src="/assets/images/profile-photo.jpg"/>
   <h1 >
     Hey, I'm Jefferson Oliveira
-    <br/>
-    a software Engineer
   </h1>
   <div class='stack-text'>
-    Fullstack Developer
+    Software Engineer - Fullstack - Frontend React - Backend Node/Python
   </div>
 </section>
 
-<section class="skills">
-  <h2>Skills</h2>
+<section class='skills-container'>
+  {% for skill in skills %}
+    <img class='skill-icon' src="{{ skill.icon }}"/>
+  {% endfor %}
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
   <hr/>
 
-  <div class='skills-container'>
-    <div class='skills-box'>
-      <h3>Javascript</h3>
-      <ul >
-        {% for skill in skills %}
-          <li>{{ skill.name }}</li>
-        {% endfor %}
-      </ul>
+  <div class='projects-container'>
+    <div class='projects-box'>
+      <h3>Savings Manager</h3>
+      <ul ></ul>
     </div>
 
   </div>
