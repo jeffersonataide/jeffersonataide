@@ -24,6 +24,12 @@ footer {
 
 .contacts-container > a {
   padding: 0.2rem;
+  margin: 1em;
+  color: white;
+}
+
+.contacts-container > a:hover {
+  filter: invert(100%) blur(0.7px);
 }
 
 .copyright {
