@@ -30,7 +30,7 @@ footer {
 }
 
 .contacts-container > a:hover {
-  filter: invert(100%) blur(0.7px);
+  filter: invert(100%);
 }
 
 .copyright {

@@ -1,0 +1,18 @@
+<ul class='projects-container'>
+    {% for project in projects %}
+        <li class='projects-box'>
+            <h3>{{ project.name }}</h3>
+            <a class="git-logo"  href="{{ project.repo }}" target="_blank" rel="noopener">
+                <img src="assets/images/git-logo.svg"/>
+            </a>
+            <p>{{ project.description }}</p>
+
+            <p>Tools: 
+                {{ project.tools.join(' - ') }}
+            </p>
+            <div class="project-cta" >
+                <a href="{{ project.link }}" target="_blank" rel="noopener">Use it</a>
+            </div>
+        </li>
+    {% endfor %}
+</ul>

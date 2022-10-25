@@ -35,7 +35,7 @@ section {
 }
 
 hr {
-  border: 0.2rem solid #ac99ef;
+  border: 0.2rem solid #c9c0ff;
   width: 50vw;
 }
 
@@ -81,7 +81,11 @@ img {
 }
 
 .header-icons-container > a:hover {
-  filter: invert(100%) blur(0.7px);
+  filter: invert(100%);
+}
+
+a:hover {
+  filter: blur(0.7px);
 }
 
 .navbar {
@@ -101,7 +105,6 @@ img {
 
 .navbar-links > a:hover {
   color: black;
-  filter: blur(0.7px);
 }
 
 .hero {
@@ -122,7 +125,7 @@ p.hero {
 }
 
 .skills-container {
-  margin: 1rem;
+  margin: 3rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
@@ -134,18 +137,4 @@ p.hero {
 .skill-icon {
   height: 2em;
   margin: 1rem;
-}
-
-.projects-container {
-  display: flex;
-  justify-content: center;
-}
-
-.projects-box {
-  width: 20em;
-  margin: 1em;
-  padding: 1em 3em 2em 3em;
-
-  border: 0.1rem solid #31188c;
-  box-shadow: -0.4rem 0.5rem 0 #31188c;
 }
