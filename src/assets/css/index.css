@@ -51,6 +51,17 @@ h3 {
   font-size: 1.5rem;
 }
 
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+}
+
+.header-icons-container > a {
+  height: 1.5em;
+}
+
 .navbar {
   text-align: center;
   background-color: #c9c0ff;
