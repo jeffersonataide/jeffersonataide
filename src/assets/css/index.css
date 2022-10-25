@@ -32,12 +32,16 @@ hr {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 1.3rem;
   color: #31188c;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  text-shadow: 0.1em 0 0 #31188c, 0 0.1em 0 #31188c, -0.1em 0 0 #31188c,
+    0 -0.1em 0 #31188c;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-family: "Press Start 2P", cursive;
   text-align: center;
   color: white;
@@ -46,9 +50,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+  color: #31188c;
+  font-size: 1rem;
 }
 
 img {
@@ -69,7 +73,7 @@ img {
 }
 
 .header-icons-container > a:hover {
-  filter: invert(100%) blur(0.5px);
+  filter: invert(100%) blur(0.7px);
 }
 
 .navbar {
@@ -82,13 +86,14 @@ img {
 }
 
 .navbar-links > a {
-  color: #060940;
+  color: white;
   font-size: 1.5em;
   margin: 0 0.2em;
 }
 
 .navbar-links > a:hover {
-  color: white;
+  color: black;
+  filter: blur(0.7px);
 }
 
 .hero {
@@ -103,10 +108,16 @@ p.hero {
 .stack-text {
   color: #31188c;
   text-transform: uppercase;
+  font-size: 1em;
+  font-family: "Press Start 2P", cursive;
+  margin: 3rem;
 }
 
 .skills-container {
   margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
