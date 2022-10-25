@@ -14,6 +14,7 @@ body {
 
 main {
   margin: 3rem;
+  flex: 1;
 }
 
 a {
