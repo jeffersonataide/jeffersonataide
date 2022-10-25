@@ -1,13 +1,13 @@
 footer {
   overflow: hidden;
   position: relative;
-  height: 15rem;
+  height: 10rem;
 }
 
 .circle-footer {
   border-radius: 100%;
   background-color: #c9c0ff;
-  height: 200vw;
+  height: 100vw;
   width: 200vw;
   position: absolute;
   left: -50vw;
@@ -25,6 +25,7 @@ footer {
 .contacts-container > a {
   padding: 0.2rem;
   margin: 1em;
+  margin-bottom: 0;
   color: white;
 }
 
@@ -34,5 +35,6 @@ footer {
 
 .copyright {
   flex-basis: 100%;
+  margin-top: 0;
   text-align: center;
 }
