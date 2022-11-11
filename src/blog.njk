@@ -8,7 +8,7 @@ main_css_class: blog
 <ul>
   {%- for post in collections.posts -%}
     <li>
-      <a href="{{ post.url }}">
+      <a class="bold-link" href="{{ post.url }}">
         {{ post.data.date.getUTCFullYear() }} / {{ post.date.getUTCMonth() + 1 }} / {{ post.date.getUTCDate() }} - {{ post.data.title }}
       </a>
     </li>
