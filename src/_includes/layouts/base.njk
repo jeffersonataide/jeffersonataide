@@ -12,7 +12,7 @@
   <body>
     {% include "navbar.html" %}
 
-    <main>
+    <main class="{{ main_css_class }}">
       {{ content | safe}}
     </main>
 

@@ -117,6 +117,10 @@ p.hero {
   width: 100%;
 }
 
+main.blog {
+  text-align: center;
+}
+
 .stack-text {
   color: #31188c;
   text-transform: uppercase;
