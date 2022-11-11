@@ -78,6 +78,7 @@ img {
 
 .header-icons-container > a {
   height: 1.5em;
+  margin: 0.3em;
 }
 
 .header-icons-container > a:hover {
