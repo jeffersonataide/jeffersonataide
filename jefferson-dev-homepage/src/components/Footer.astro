@@ -1,0 +1,27 @@
+---
+import { CONTACT_INFO } from "../config";
+---
+
+<footer class="overflow-hidden relative h-40 mt-14">
+  <div
+    class="absolute rounded-[100%] bg-violet-200 h-[100vw] w-[200vw] left-[-50vw]"
+  >
+  </div>
+  <div class="relative h-full flex items-center justify-center flex-wrap">
+    {
+      CONTACT_INFO.map((contact) => (
+        <a
+          class="p-1 m-4 mb-0 text-white hover:invert hover:blur-[0.7px]"
+          href={contact.link}
+          target="_blank"
+          rel="noopener"
+        >
+          {contact.name}
+        </a>
+      ))
+    }
+    <p class="basis-full mt-0 text-center text-white">
+      © 2022 Jefferson Oliveira
+    </p>
+  </div>
+</footer>
