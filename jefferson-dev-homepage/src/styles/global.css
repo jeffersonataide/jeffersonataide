@@ -14,6 +14,20 @@ h2 {
     0 -0.1em 0 #31188c;
 }
 
+h3 {
+  font-family: "Press Start 2P", cursive;
+}
+
+hr {
+  border: 0.2rem solid #c9c0ff;
+  width: 50vw;
+  margin: auto;
+}
+
 .stack-text {
   font-family: "Press Start 2P", cursive;
+}
+
+.projects-box {
+  box-shadow: -0.4rem 0.5rem 0 #c9c0ff;
 }
