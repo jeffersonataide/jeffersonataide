@@ -25,3 +25,34 @@ export const ROUTES = [
   { name: "Home", link: "/" },
   { name: "Blog", link: "/blog" },
 ];
+
+export const SKILLS = [
+  {
+    name: "Javascript",
+    icon: "/images/js-logo.svg",
+  },
+  {
+    name: "Typescript",
+    icon: "/images/typescript-logo.svg",
+  },
+  {
+    name: "ReactJS",
+    icon: "/images/react-logo.svg",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "/images/postgresql-logo.svg",
+  },
+  {
+    name: "Python",
+    icon: "/images/python-logo-generic.svg",
+  },
+  {
+    name: "GraphQL",
+    icon: "/images/graphql-logo.svg",
+  },
+  {
+    name: "Docker",
+    icon: "/images/docker-logo.png",
+  },
+];
