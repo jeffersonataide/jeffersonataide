@@ -1,0 +1,25 @@
+---
+import { CONTACT_INFO } from "../config";
+import { ROUTES } from "../config";
+---
+
+<header class="p-3 bg-violet-200 flex justify-around">
+  <nav class="space-x-5 text-2xl text-white">
+    {
+      ROUTES.map((route) => (
+        <a class="hover:invert hover:blur-[0.7px]" href={route.link}>
+          {route.name}
+        </a>
+      ))
+    }
+  </nav>
+  <div class="flex space-x-3">
+    {
+      CONTACT_INFO.map((contact) => (
+        <a href={contact.link} target="_blank" rel="noopener">
+          <img class="h-7 hover:invert hover:blur-[0.7px]" src={contact.icon} />
+        </a>
+      ))
+    }
+  </div>
+</header>
