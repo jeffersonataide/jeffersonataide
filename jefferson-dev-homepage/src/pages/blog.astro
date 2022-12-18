@@ -22,7 +22,8 @@ const posts = (await Astro.glob("./blog-posts/*.{md,mdx}")).sort(
                   month: "short",
                   day: "numeric",
                 })}
-              </time>
+              </time>{" "}
+              - {post.frontmatter.title}
             </a>
           </li>
         ))
