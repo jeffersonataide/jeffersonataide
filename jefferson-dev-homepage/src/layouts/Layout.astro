@@ -18,9 +18,9 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
 
-  <body>
+  <body class="flex flex-col min-h-screen justify-between">
     <Navbar />
-    <main>
+    <main class="flex-1 mx-2 my-8">
       <slot />
     </main>
     <Footer />

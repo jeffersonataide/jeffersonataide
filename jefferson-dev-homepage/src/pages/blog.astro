@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const posts = (await Astro.glob("./blog-posts/*.{md,mdx}")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<Layout title="Blog">
+  <div class="text-center">
+    <h1>Blog Page</h1>
+    <ul>
+      {
+        posts.map((post) => (
+          <li class="my-5">
+            <a class="font-bold text-violet-700" href={post.url}>
+              <time datetime={post.frontmatter.date}>
+                {new Date(post.frontmatter.date).toLocaleDateString("en-us", {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                })}
+              </time>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

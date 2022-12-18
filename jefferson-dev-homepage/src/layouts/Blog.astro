@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+export interface Props {
+  content: {
+    title: string;
+    tag: string;
+    date: string;
+  };
+}
+
+const {
+  content: { title, tag, date },
+} = Astro.props;
+---
+
+<Layout title={`${title} - Blog`}>
+  <h1 class="text-center my-5 text-2xl">{title}</h1>
+
+  <time class="flex mx-auto w-max text-violet-700 text-lg mb-5" datetime={date}>
+    {
+      new Date(date).toLocaleDateString("en-us", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      })
+    }
+  </time>
+
+  <article class="mx-5">
+    <slot />
+  </article>
+</Layout>
