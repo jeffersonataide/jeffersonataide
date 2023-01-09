@@ -10,7 +10,7 @@ const posts = (await Astro.glob("./blog-posts/*.{md,mdx}")).sort(
 
 <Layout title="Blog">
   <div class="text-center">
-    <h1>Blog Page</h1>
+    <h1 class="text-2xl">Blog Page</h1>
     <ul>
       {
         posts.map((post) => (
