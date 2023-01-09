@@ -16,10 +16,11 @@ import { PROJECTS } from "../config";
           </a>
           <p class="py-5">{project.description}</p>
 
-          <p class="py-7">
-            Tools:
-            {project.tools.join(" - ")}
-          </p>
+          <div class="text-center py-7">
+            <p class="font-bold">Tools</p>
+            <p class="">{project.tools.join(" - ")}</p>
+          </div>
+
           <div class="text-center font-bold text-violet-700">
             <a href={project.link} target="_blank" rel="noopener">
               Use it
