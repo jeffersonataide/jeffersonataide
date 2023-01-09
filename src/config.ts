@@ -70,6 +70,6 @@ export const PROJECTS = [
     repo: "https://github.com/jeffersonataide/savings-manager-api",
     link: "https://savings-manager-api.onrender.com/docs",
     description: "The Backend of an application for managing investments.",
-    tools: ["Python", "FastAPI", "PostgreSQL"],
+    tools: ["Python", "SQLAlchemy", "FastAPI", "PostgreSQL"],
   },
 ];
