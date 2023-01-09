@@ -63,13 +63,20 @@ export const PROJECTS = [
     repo: "https://github.com/jeffersonataide/savings-manager-ui",
     link: "https://investments-manager.netlify.app/",
     description: "The Frontend of an application for managing investments.",
-    tools: ["Typescript", "React", "Zustand", "TailwindCSS"],
+    tools: ["Typescript", "React", "React Query", "Zustand", "TailwindCSS"],
   },
   {
     name: "Savings Manager Backend",
     repo: "https://github.com/jeffersonataide/savings-manager-api",
     link: "https://savings-manager-api.onrender.com/docs",
     description: "The Backend of an application for managing investments.",
-    tools: ["Python", "SQLAlchemy", "FastAPI", "PostgreSQL"],
+    tools: ["Python", "FastAPI", "PostgreSQL", "PostgreSQL", "Docker"],
+  },
+  {
+    name: "Notetaker Backend",
+    repo: "https://github.com/jeffersonataide/notetaker-api",
+    link: "https://notetaker-api.onrender.com",
+    description: "The Backend of an application for taking notes.",
+    tools: ["Rust", "Axum", "SQLX", "PostgreSQL", "Docker"],
   },
 ];
