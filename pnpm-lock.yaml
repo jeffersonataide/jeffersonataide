@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/tailwind': ^3.0.0
   astro: ^2.0.2
   husky: ^8.0.3
-  tailwindcss: ^3.0.24
+  tailwindcss: ^3.2.4
 
 dependencies:
   '@astrojs/tailwind': 3.0.0_uhsc6pehih5huiqhsy5i7sy5um
