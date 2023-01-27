@@ -12,7 +12,11 @@ import { PROJECTS } from "../config";
         <li class="projects-box w-80 m-8 p-8 flex flex-col justify-between border-2 border-violet-200">
           <h3 class="text-violet-700 text-center">{project.name}</h3>
           <a class="p-4" href={project.repo} target="_blank" rel="noopener">
-            <img class="h-8 mx-auto" src="/images/git-logo.svg" />
+            <img
+              class="h-8 mx-auto"
+              src="/images/git-logo.svg"
+              alt="github logo"
+            />
           </a>
           <p class="py-5">{project.description}</p>
 

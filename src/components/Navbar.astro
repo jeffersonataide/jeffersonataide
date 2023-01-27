@@ -17,7 +17,11 @@ import { ROUTES } from "../config";
     {
       CONTACT_INFO.map((contact) => (
         <a href={contact.link} target="_blank" rel="noopener">
-          <img class="h-7 hover:invert hover:blur-[0.7px]" src={contact.icon} />
+          <img
+            class="h-7 hover:invert hover:blur-[0.7px]"
+            src={contact.icon}
+            alt={`Social media icon for ${contact.name}`}
+          />
         </a>
       ))
     }
