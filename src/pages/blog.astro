@@ -15,7 +15,7 @@ const posts = (await Astro.glob("./blog-posts/*.{md,mdx}")).sort(
       {
         posts.map((post) => (
           <li class="my-5">
-            <a class="font-bold text-violet-700" href={post.url}>
+            <a class="font-bold text-secondary" href={post.url}>
               <time datetime={post.frontmatter.date}>
                 {new Date(post.frontmatter.date).toLocaleDateString("en-us", {
                   year: "numeric",

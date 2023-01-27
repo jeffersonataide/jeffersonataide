@@ -9,8 +9,8 @@ import { PROJECTS } from "../config";
   <ul class="flex flex-wrap justify-center">
     {
       PROJECTS.map((project) => (
-        <li class="projects-box w-80 m-8 p-8 flex flex-col justify-between border-2 border-violet-200">
-          <h3 class="text-violet-700 text-center">{project.name}</h3>
+        <li class="projects-box w-80 m-8 p-8 flex flex-col justify-between border-2 border-primary">
+          <h3 class="text-secondary text-center">{project.name}</h3>
           <a class="p-4" href={project.repo} target="_blank" rel="noopener">
             <img
               class="h-8 mx-auto"
@@ -25,7 +25,7 @@ import { PROJECTS } from "../config";
             <p class="">{project.tools.join(" - ")}</p>
           </div>
 
-          <div class="text-center font-bold text-violet-700">
+          <div class="text-center font-bold text-secondary">
             <a href={project.link} target="_blank" rel="noopener">
               Use it
             </a>

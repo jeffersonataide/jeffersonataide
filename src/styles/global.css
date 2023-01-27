@@ -4,14 +4,14 @@ h1 {
   font-family: "Press Start 2P", cursive;
   color: white;
   text-shadow: 0.1em 0 0 #31188c, 0 0.1em 0 #31188c, -0.1em 0 0 #31188c,
-    0 -0.1em 0 #31188c;
+    0 -0.1em 0 #c4b5fd;
 }
 
 h2 {
   font-family: "Press Start 2P", cursive;
   color: white;
   text-shadow: 0.1em 0 0 #31188c, 0 0.1em 0 #31188c, -0.1em 0 0 #31188c,
-    0 -0.1em 0 #31188c;
+    0 -0.1em 0 #c4b5fd;
 }
 
 h3 {
@@ -19,8 +19,7 @@ h3 {
 }
 
 hr {
-  border: 0.2rem solid #c9c0ff;
+  border: 0.2rem solid #c4b5fd;
   width: 50vw;
   margin: auto;
 }
-
